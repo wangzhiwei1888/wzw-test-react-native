@@ -14,6 +14,6 @@ import {
 } from 'react-native';
 
 import App from './react/App.js'
-import Button from './react/Button.js'
+// import Button from './react/Button.js'
 
 AppRegistry.registerComponent('wzw', ()=>App);

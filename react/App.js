@@ -8,8 +8,8 @@ import {
 } from 'react-native';
 
 // import { Button } from './common/Button/Button.js';
-// import {Button} from 'common';
-import {Button} from './Button.js';
+import {Button} from 'common';
+// import Button from './Button.js';
 
 
 class App extends Component{

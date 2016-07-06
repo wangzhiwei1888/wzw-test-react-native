@@ -13,14 +13,20 @@
 //
 // module.exports = Button;
 
-class Button extends Component{
-  render(){
-    return(
-      <View style={{marginTop:30}}>
-        <Text>Button</Text>
-      </View>
-    )
-  }
-}
+// class Button extends Component{
+//   render(){
+//     return(
+//       <View style={{marginTop:30}}>
+//         <Text>Button</Text>
+//       </View>
+//     )
+//   }
+// }
+
+// module.exports = Button;
+
+const Button = () => <View>
+  <Text>button</Text>
+</View>
 
 module.exports = Button;
