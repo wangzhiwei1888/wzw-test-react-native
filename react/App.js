@@ -17,7 +17,7 @@ class App extends Component{
     return(
       <View style={{marginTop:30}}>
         <Text>hello world</Text>
-        <Button />
+        <Button><Text>test button for children</Text></Button>
       </View>
     )
   }

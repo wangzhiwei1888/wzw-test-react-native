@@ -1,19 +1,19 @@
-// 
-// import React, {Component} from 'react';
-//
-// import {
-//   View,
-//   Text,
-// } from 'react-native';
+
+import React, {Component} from 'react';
+
+import {
+  View,
+  Text,
+} from 'react-native';
 
 
-// const Button = ({children}) => <View>
-//   <View>{children}</View>
-// </View>
-//
-// module.exports = Button;
+export const Button = ({children}) => <View>
+  <View>{children}</View>
+</View>
 
-// class Button extends Component{
+
+
+// export class Button extends Component{
 //   render(){
 //     return(
 //       <View style={{marginTop:30}}>
@@ -23,10 +23,11 @@
 //   }
 // }
 
+
+
+// export const Button = () => <View>
+//   <Text>button</Text>
+// </View>
+
+//加上下面的不行，必须用 export 导出
 // module.exports = Button;
-
-const Button = () => <View>
-  <Text>button</Text>
-</View>
-
-module.exports = Button;
